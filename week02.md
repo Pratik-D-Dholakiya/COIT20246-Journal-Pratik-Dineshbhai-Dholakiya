@@ -2,3 +2,6 @@
 
 - Activtiy 1 : Created github repo and shared with tutor.
 - [!GitHub](./images/github.png)
+
+- Computer Information
+- [!GitHub](./images/ComputerInfo.png)
