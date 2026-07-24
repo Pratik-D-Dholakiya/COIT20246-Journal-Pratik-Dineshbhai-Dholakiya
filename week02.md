@@ -7,7 +7,7 @@
 - [!Computer Information](./images/ComputerInfo.png)
 
 - Openwrt VM
-- [!Computer Information](./images/week2-task4-openwrt.png)
+- [!Openwrt VM](./images/week2-task4-openwrt.png)
 
 - Ram
 - [!Ram](./images/week2-task4-ram.png)
