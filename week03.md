@@ -10,18 +10,15 @@
 ![Github](./images/week3-task3-localrouter1.png)
 ![Github](./images/week3-task3-localrouter2.png)
 
-- Task 4 : Ping Your Local Router
-- ![Openwrt VM](./images/week2-task4-openwrt.png)
+- Task 4 : Ping your OpenWRT Linux Server
+![Github](./images/week3-task4-ping-openwrtpng)
 
-- Task 5 : Ping your OpenWRT Linux Server
-- ![Ram](./images/week2-task4-ram.png)
-
-- Task 6 : View Your Addresses
+- Task 5 : View Your Addresses
 - ![Github](./images/github.png)
 
-- Task 7 : Find Addresses of a Website
+- Task 6 : Find Addresses of a Website
 - ![Computer Information](./images/ComputerInfo.png)
 
-- Task 8 : Home Internet Connection
+- Task 7 : Home Internet Connection
 - ![Computer Information](./images/ComputerInfo.png)
 
