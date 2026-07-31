@@ -33,9 +33,19 @@
 
 - ## Task 4 : Ping your OpenWRT Linux Server
 - ### Commands Used
-  ip link
-  ip addr
-- ![Github](./images/week3-task4-ping-openwrtpng)
+  - ip link
+  - ip addr
+  - Packet Capture Command : tcpdump -i eth0 -w week3-task4-ping.pcap
+  - Ping Command from Windows Host : ping 192.168.56.2
+![Github](./images/week3-task4-ping-openwrtpng)
+ - Destination IP: 192.168.56.2
+ - Packets Sent: 4
+ - Packets Received: 4
+ - Packet Loss: 0%
+ - Minimum Delay: 0 ms
+ - Maximum Delay: 0 ms
+ - Average Delay: 0 ms
+
 
 - ## Task 6 : Find Addresses of a Website
 - ![Computer Information](./images/ComputerInfo.png)
