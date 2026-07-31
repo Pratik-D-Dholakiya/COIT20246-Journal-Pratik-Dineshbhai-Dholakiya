@@ -47,9 +47,9 @@
  - Average Delay: 0 ms
 
 
-- ## Task 6 : Find Addresses of a Website
+- ## Task 7 : Find Addresses of a Website
 - ![Computer Information](./images/ComputerInfo.png)
 
-- ## Task 7 : Home Internet Connection
+- ## Task 8 : Home Internet Connection
 - ![Computer Information](./images/ComputerInfo.png)
 
