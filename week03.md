@@ -1,7 +1,7 @@
 # Week 3 Journal
 
 - Task 1 : View Your Addresses
-- ![Github](./images/github.png)
+- ![Github](./images/week3-task2-IPAdresses.png)
 
 - Task 2 : Ping Your Local Router
 - ![Computer Information](./images/ComputerInfo.png)
