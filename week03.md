@@ -32,6 +32,9 @@
  - After testing the ping command to test connectivity. The router responded successfully with 0 ms minimum, average, and maximum delay, indicating a very fast local network connection.
 
 - ## Task 4 : Ping your OpenWRT Linux Server
+- ### Commands Used
+  ip link
+  ip addr
 - ![Github](./images/week3-task4-ping-openwrtpng)
 
 - ## Task 6 : Find Addresses of a Website
