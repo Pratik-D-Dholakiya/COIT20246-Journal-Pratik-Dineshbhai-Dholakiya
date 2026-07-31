@@ -3,6 +3,8 @@
 - Task 1 : View Your Addresses
 ![Github](./images/week3-task2-addresses.png)
 ![Github](./images/week3-task2-IPAdresses.png)
+![Github](./images/week3-task2-ethernet.png)
+![Github](./images/week3-task2-ethernet3.png)
 
 - Task 2 : Ping Your Local Router
 - ![Computer Information](./images/ComputerInfo.png)
