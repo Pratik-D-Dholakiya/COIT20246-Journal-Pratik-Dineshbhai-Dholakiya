@@ -1,10 +1,10 @@
 # Week 3 Journal
 
 - ## Task 2 : View Your Addresses
-- ### Get-NetAdapter
-- ![Github](./images/week3-task2-addresses.png)
+- ### Commands Used Get-NetAdapter
+![Github](./images/week3-task2-addresses.png)
 - ### Get-NetIPAddress
-- ![Github](./images/week3-task2-IPAdresses.png)
+![Github](./images/week3-task2-IPAdresses.png)
 - ### Get-NetIPAddress -InterfaceAlias "Ethernet"
 - ![Github](./images/week3-task2-ethernet.png)
 - IPv4 Address (Ethernet) : 10.178.32.125 - Identifies my computer on the local network.
