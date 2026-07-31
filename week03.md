@@ -20,6 +20,12 @@
 - Task 3 : Ping Your Local Router
 - ![Github](./images/week3-task3-localrouter1.png)
 - ![Github](./images/week3-task3-localrouter2.png)
+- Router IP Address (Default Gateway): 10.178.32.1
+- Minimum Delay: 0 ms
+- Average Delay: 0 ms
+- Maximum Delay: 0 ms
+- Packet Loss: 0%
+- After testing the ping command to test connectivity. The router responded successfully with 0 ms minimum, average, and maximum delay, indicating a very fast local network connection.
 
 - Task 4 : Ping your OpenWRT Linux Server
 - ![Github](./images/week3-task4-ping-openwrtpng)
