@@ -50,8 +50,11 @@
 
 
 ## Task 7 : Find Addresses of a Website
-- ![Computer Information](./images/ComputerInfo.png)
+### Website: 
+- https://www.canva.com
+- Address:        10.8.0.25
+- Command used : nslookup https://www.canva.com
 
 ## Task 8 : Home Internet Connection
-- ![Computer Information](./images/ComputerInfo.png)
+- 
 
