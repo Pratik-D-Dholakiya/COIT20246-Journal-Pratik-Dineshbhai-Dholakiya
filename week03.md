@@ -29,6 +29,8 @@
  Maximum Delay: 0 ms
  Packet Loss: 0%
  - After testing the ping command to test connectivity. The router responded successfully with 0 ms minimum, average, and maximum delay, indicating a very fast local network connection.
+ ### Factors that affect the delay: 
+ Delay can vary depending on network traffic, Wi-Fi signal strength, router workload, and other devices using the network. The delay may vary over time because network conditions constantly change.
 
 ## Task 4 : Ping your OpenWRT Linux Server
 - ### Commands Used
