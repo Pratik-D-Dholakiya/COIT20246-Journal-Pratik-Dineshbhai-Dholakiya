@@ -1,6 +1,6 @@
 # Group Members:
 ## Member 1: Pratik Dineshbhai Dholakiya 
-- Studnt ID: 12327424
+- Student ID: 12327424
 - Email ID: p.dholakiya@cqumail.com
 
 ## Member 2: Sunny Patel 
