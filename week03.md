@@ -2,7 +2,7 @@
 
 ## Task 2 : View Your Addresses
   
-### Commands Used
+### Commands Used to get Addresses
 - Get-NetAdapter
 - Get-NetIPAddress
 - Get-NetIPAddress -InterfaceAlias "Ethernet"
@@ -33,19 +33,20 @@
  Delay can vary depending on network traffic, Wi-Fi signal strength, router workload, and other devices using the network. The delay may vary over time because network conditions constantly change.
 
 ## Task 4 : Ping your OpenWRT Linux Server
-- ### Commands Used
+- ### Commands Used to ping OpenWRT linus server
   - ip link
   - ip addr
   - Packet Capture Command : tcpdump -i eth0 -w week3-task4-ping.pcap
   - Ping Command from Windows Host : ping 192.168.56.2
 ![Github](./images/week3-task4-ping-openwrtpng)
  - Destination IP: 192.168.56.2
- - Packets Sent: 4
- - Packets Received: 4
- - Packet Loss: 0%
- - Minimum Delay: 0 ms
- - Maximum Delay: 0 ms
- - Average Delay: 0 ms
+   ### Packets info and delays :
+   - Packets Sent: 4
+   - Packets Received: 4
+   - Packet Loss: 0%
+   - Minimum Delay: 0 ms
+   - Maximum Delay: 0 ms
+   - Average Delay: 0 ms
 
 
 ## Task 7 : Find Addresses of a Website
