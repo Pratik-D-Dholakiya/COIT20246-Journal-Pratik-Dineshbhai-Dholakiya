@@ -1,5 +1,7 @@
 # Week 3 Journal
 
+## Task 1 : Completed knowledge test for Week 3
+
 ## Task 2 : View Your Addresses
   
 ### Commands Used to get Addresses
@@ -47,7 +49,12 @@
    - Minimum Delay: 0 ms
    - Maximum Delay: 0 ms
    - Average Delay: 0 ms
-
+## Task 5: Academic Integrity Policy
+- Level 1 Breach of Academic Integrity : Inappropriate academic conduct  
+- Level 2 Breach of Academic Integrity : Minor academic misconduct
+- Level 3 Breach of Academic Integrity : Moderate academic misconduct 
+- Level 4 Breach of Academic Integrity : Substantial academic misconduct
+- Level 5 Breach of Academic Integrity : Serious academic misconduct  
 
 ## Task 7 : Find Addresses of a Website
 ### Website: 
