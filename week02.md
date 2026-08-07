@@ -23,10 +23,9 @@
 - "Write a short details about VirtualMachine and OpenWRT"
 ### AI Response:
 - A Virtual Machine (VM) is software that creates a virtual computer inside your physical computer. It allows you to install and run different operating systems without changing your main operating system. Virtual machines are commonly used for learning, software testing, and cybersecurity labs.
-
-OpenWRT is a lightweight Linux-based operating system designed mainly for routers and networking devices. It provides advanced networking features, allows users to install additional software packages, and gives greater control over network configuration than the default router software.
+- OpenWRT is a lightweight Linux-based operating system designed mainly for routers and networking devices. It provides advanced networking features, allows users to install additional software packages, and gives greater control over network configuration than the default router software.
 ### Comparision:
-
+My description focuses on the uses of a Virtual Machine and OpenWRT, while the AI description explains them in a simpler and more direct way. Both describe the same concepts, but the AI version is shorter and easier to understand.
 
 
 ![Openwrt VM](./images/week2-task4-openwrt.png)
