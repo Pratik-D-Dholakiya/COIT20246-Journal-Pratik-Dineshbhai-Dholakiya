@@ -58,7 +58,7 @@
 - Level 5 Breach of Academic Integrity : Serious academic misconduct  
 
 ## Task 6 : Print GitHub Journal Page to PDF
-- By using shortcut(Ctrl + shift + p) or print page menu, which is located in top right corner of web page.
+- By using shortcut(Ctrl + p) or print page menu, which is located in top right corner of web page.
 
 ## Task 7 : Find Addresses of a Website
 ### Website: 
