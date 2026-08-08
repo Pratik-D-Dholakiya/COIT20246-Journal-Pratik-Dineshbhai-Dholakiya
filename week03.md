@@ -73,7 +73,7 @@
 ![Github](./images/week3-task8-speedtest3.png)
 ![Github](./images/week3-task8-speedtest4.png)
 
-Why network speed changes?
+### Why network speed changes?
 - Residential internet relies on a shared local node, which can be affected by traffic congestion during peak evening hours. This increased demand leads to slower download speeds and higher network latency.
 - Wireless performance varies throughout the day due to physical obstacles and signal interference from neighboring Wi-Fi networks. Moving farther from the router also reduces available bandwidth.
 
