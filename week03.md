@@ -2,21 +2,21 @@
 
 ## Task 1 : Completed knowledge test for Week 3
 
-## Task 2 : View Your Addresses
-  
+## Task 2 : View Your Addresses  
 ### Commands Used to get Addresses
 - Get-NetAdapter
 - Get-NetIPAddress
 - Get-NetIPAddress -InterfaceAlias "Ethernet"
 - Get-NetIPAddress -InterfaceAlias "Ethernet 3"
-  
 ![Github](./images/week3-task2-addresses.png)
 ![Github](./images/week3-task2-IPAdresses.png)
+
 ### Ethernet
 ![Github](./images/week3-task2-ethernet.png)
  - IPv4 Address (Ethernet) : 10.178.32.125 - Identifies my computer on the local network.
  - IPv6 Address (Ethernet) : fe80::a748:97db:d02c:5cf5%8 - An IPv6 address used to identify my device on the network.
  - MAC Address (Ethernet) : 74-86-E2-38-A8-84 - Unique hardware address of the physical network adapter.
+
 ### Ethernet 3
 ![Github](./images/week3-task2-ethernet3.png)
  - IPv4 Address (Ethernet 3) : 192.168.56.1 - Identifies the VirtualBox Host-Only Adapter on the local virtual network.
@@ -42,7 +42,7 @@
   - Ping Command from Windows Host : ping 192.168.56.2
 ![Github](./images/week3-task4-ping-openwrtpng)
  - Destination IP: 192.168.56.2
-   ### Packets info and delays :
+### Packets info and delays :
    - Packets Sent: 4
    - Packets Received: 4
    - Packet Loss: 0%
