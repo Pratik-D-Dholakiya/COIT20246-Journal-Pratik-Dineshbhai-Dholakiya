@@ -63,5 +63,19 @@
 - Command used : nslookup https://www.canva.com
 
 ## Task 8 : Home Internet Connection
-- 
+- Internet Service Provider) : Buroserv (Routed via Exetel / Sydney node)
+- Connection Type : NBN (National Broadband Network — FTTP / FTTN / FTTC / HFC)
+- Speed : 25 Mbps Download / 10 Mbps Upload (NBN 25 Plan)
+- Speed Test Result 1 (Off-Peak / Baseline)Download: 26.18 Mbps | Upload: 9.40 Mbps | Idle Ping: 25 ms
+- Speed Test Result 2 (Peak Hours - Evening)Download: ~21.50 Mbps | Upload: ~8.10 Mbps | Idle Ping: 32 ms
+![Github](./images/week3-task8-speedtest1.png)
+![Github](./images/week3-task8-speedtest2.png)
+![Github](./images/week3-task8-speedtest3.png)
+![Github](./images/week3-task8-speedtest4.png)
+
+Why network speed changes?
+- Residential internet relies on a shared local node, which can be affected by traffic congestion during peak evening hours. This increased demand leads to slower download speeds and higher network latency.
+- Wireless performance varies throughout the day due to physical obstacles and signal interference from neighboring Wi-Fi networks. Moving farther from the router also reduces available bandwidth.
+
+
 
