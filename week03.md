@@ -35,7 +35,7 @@
  Delay can vary depending on network traffic, Wi-Fi signal strength, router workload, and other devices using the network. The delay may vary over time because network conditions constantly change.
 
 ## Task 4 : Ping your OpenWRT Linux Server
-- ### Commands Used to ping OpenWRT linus server
+### Commands Used to ping OpenWRT linus server
   - ip link
   - ip addr
   - Packet Capture Command : tcpdump -i eth0 -w week3-task4-ping.pcap
@@ -49,12 +49,16 @@
    - Minimum Delay: 0 ms
    - Maximum Delay: 0 ms
    - Average Delay: 0 ms
+
 ## Task 5: Academic Integrity Policy
 - Level 1 Breach of Academic Integrity : Inappropriate academic conduct  
 - Level 2 Breach of Academic Integrity : Minor academic misconduct
 - Level 3 Breach of Academic Integrity : Moderate academic misconduct 
 - Level 4 Breach of Academic Integrity : Substantial academic misconduct
 - Level 5 Breach of Academic Integrity : Serious academic misconduct  
+
+## Task 6 : Print GitHub Journal Page to PDF
+- By using shortcut(Ctrl + shift + p) or print page menu, which is located in top right corner of web page.
 
 ## Task 7 : Find Addresses of a Website
 ### Website: 
