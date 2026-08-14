@@ -58,7 +58,7 @@
 
 ## Task 5 : IP Address Lookup
 ![Github](./images/week5-task5-lab.png)
-![Github](./images/week5-task5-home.png)
+![Github](./images/week5-task5-phone.png)
 - I used an online IP address lookup website to check my IP address on two different networks. The website determined my public IPv4 address and Internet Service Provider (ISP). It also guessed where I was as Sydney, New South Wales, Australia.
 - But the location was not precise, and it didn't provide my home or computer location. This demonstrates that IP address lookup services can give a general location, however aren't exact in determining a person's precise geographical location.
 - The public IP address changed, as every Internet connection has a different public IP address when a different network is used. Websites are then able to see the net public IP address, not necessarily my personal computer's IP address.
