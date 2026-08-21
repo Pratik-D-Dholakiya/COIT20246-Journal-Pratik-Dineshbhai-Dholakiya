@@ -1,48 +1,22 @@
 # Week 6 Journal
 
-## Task 1 : Completed knowledge test
+## Task 1 : Completed knowledge test.
 
 ## Task 2 : Create Web Pages in OpenWRT
+- Created a new HTML page 12327424.html on the OpenWRT web server and linked it from the existing `index.html` page and added a button to display the current date and time.
+- Created an external CSS file and linked it with 12327424.html page to change the colour of text.
+![Github](./images/index.html)
+![Github](./images/12327424.html)
+![Github](./images/myStyles.css)
 ![Github](./images/week6-task2-webpage.png)
 
-## Task 3 : View Your Addresses
-### Team Members:
-- Pratik Dineshbhai Dholakiya, ID: 12327424
-- Sunny Patel, ID: 12346211
-   
-### Network diagram: 
-![Github](./images/week5-task3-network-diagram.png)
+## Task 3 : Capture HTTP Packets.
+### Commands used:
+- cd (to change back to default directory)
+- tcpdump -i eth0 -n -w http-12345678.pcap (to generate pcap file and trace the webpage activity)
+- Ctrl^C : to stop the packet capture process
+![Github](./images/week6-task3-arp-table.png)
 
-### Table of Devices, Interfaces, and Assigned IPs: 
-| Device | Interface | IP Address | Subnet Mask / Prefix | Gateway / Notes |
-| :--- | :--- | :--- | :--- | :--- |
-| **PC1** | NIC | 74.24.0.10 | 255.255.255.0 (/24) | 74.24.0.1 |
-| **PC2** | NIC | 74.24.0.20 | 255.255.255.0 (/24) | 74.24.0.1 |
-| **PC3** | NIC | 74.24.0.30 | 255.255.255.0 (/24) | 74.24.0.1 |
-| **Router 1** | Fa0/0 (LAN A) | 74.24.0.1 | 255.255.255.0 (/24) | Default Gateway for LAN A |
-| **Router 1** | Se0/0 (WAN) | 172.16.100.1 | 255.255.255.252 (/30) | Point-to-point to Router 2 |
-| **Router 2** | Se0/0 (WAN) | 172.16.100.2 | 255.255.255.252 (/30) | Point-to-point to Router 1 |
-| **Router 2** | Fa0/0 (LAN B) | 56.78.0.1 | 255.255.255.0 (/24) | Default Gateway for LAN B |
-| **PC4** | NIC | 56.78.0.10 | 255.255.255.0 (/24) | 56.78.0.1 |
-| **PC5** | NIC | 56.78.0.20 | 255.255.255.0 (/24) | 56.78.0.1 |
-
-### Routing tables: 
-- #### Router 1 Routing Table: 
-| Network Destination | Netmask | Gateway (Next Hop) | Interface |
-| :--- | :--- | :--- | :--- |
-| 74.24.0.0 | 255.255.255.0 | 0.0.0.0 (Direct) | Fa0/0 |
-| 172.16.100.0 | 255.255.255.252 | 0.0.0.0 (Direct) | Se0/0 |
-| 10.0.56.0 | 255.255.255.0 | 172.16.100.2 | Se0/0 |
-
-- #### Router 2 Routing Table: 
-| Network Destination | Netmask | Gateway (Next Hop) | Interface |
-| :--- | :--- | :--- | :--- |
-| 10.0.56.0 | 255.255.255.0 | 0.0.0.0 (Direct) | Fa0/0 |
-| 172.16.100.0 | 255.255.255.252 | 0.0.0.0 (Direct) | Se0/0 |
-| 74.24.0.0 | 255.255.255.0 | 172.16.100.1 | Se0/0 |
-
-### Packet diagram: 
-![Github](./images/week5-task3-icmp-packet-diagram.png)
 
 ## Task 4 : Academic Integrity Outcomes
 - Academic Integrity Scenario – Copying from the Internet
