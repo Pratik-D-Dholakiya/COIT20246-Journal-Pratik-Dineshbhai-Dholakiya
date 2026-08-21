@@ -7,7 +7,7 @@
 - Created an external CSS file and linked it with 12327424.html page to change the colour of text.
 - index.html ![Github](./images/index.html)
 - 12327424.html ![Github](./images/12327424.html)
-- myStyles.html ![Github](./images/myStyles.css)
+- myStyles.css ![Github](./images/myStyles.css)
 ![Github](./images/week6-task2-webpage.png)
 
 ## Task 3 : Capture HTTP Packets.
