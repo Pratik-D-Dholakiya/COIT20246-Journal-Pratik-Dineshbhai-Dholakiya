@@ -5,9 +5,9 @@
 ## Task 2 : Create Web Pages in OpenWRT
 - Created a new HTML page 12327424.html on the OpenWRT web server and linked it from the existing `index.html` page and added a button to display the current date and time.
 - Created an external CSS file and linked it with 12327424.html page to change the colour of text.
-![Github](./images/index.html)
-![Github](./images/12327424.html)
-![Github](./images/myStyles.css)
+- index.html ![Github](./images/index.html)
+- 12327424.html ![Github](./images/12327424.html)
+- myStyles.html ![Github](./images/myStyles.css)
 ![Github](./images/week6-task2-webpage.png)
 
 ## Task 3 : Capture HTTP Packets.
