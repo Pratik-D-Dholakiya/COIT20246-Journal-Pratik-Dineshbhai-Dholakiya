@@ -1,8 +1,8 @@
 # Week 4 Journal
 
-## Task 1 : Completed knowledge test for Week 3
+## Task 1 : Completed knowledge test
 
-## Task 2 : View Your Addresses
+## Task 3 : Draw Network Diagrams
   
 ### Commands Used to get Addresses
 - Get-NetAdapter
