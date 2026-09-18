@@ -1,8 +1,5 @@
 # Week 9 Journal
 
-## Task 1 : Completed knowledge test.
-![Github](./images/week9-task1-knowledge-test.png)
-
 ## Task 2 : CIA Protections
 
 ### Asset 1: Customer information
