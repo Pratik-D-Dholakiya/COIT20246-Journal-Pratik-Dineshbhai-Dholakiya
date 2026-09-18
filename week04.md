@@ -1,9 +1,35 @@
 # Week 4 Journal
 
 ## Task 1 : Completed knowledge test
+![Github](./images/week4-task1-knowledge-test.png)
+
+### Task 2 — Project Initiation
+![Github](./images/week4-task2-Project-Initiation.png)
 
 ## Task 3 : Draw Network Diagrams
-  
+#### Diagram 1 — Switched LAN
+
+![Github](./images/week4-task3-lana.png)
+The first network diagram contains:
+
+- 1 network switch
+- 4 PCs
+- Each PC is directly connected to the switch.
+
+#### Diagram 2 — Switched LAN with Multiple Switches
+
+![Github](./images/week4-task3-lanb.png)
+The second network diagram contains:
+
+- 3 network switches
+- 8 PCs
+- The devices are arranged using a star network arrangement.
+
+#### Tool Used
+
+The network diagrams were created using **draw.io (diagrams.net)**.
+
+
 ### Commands Used to get Addresses
 - Get-NetAdapter
 - Get-NetIPAddress
