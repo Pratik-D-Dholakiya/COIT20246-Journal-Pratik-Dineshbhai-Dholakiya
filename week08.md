@@ -13,16 +13,6 @@ This submission therefore documents the work that I was able to complete and pro
 
 ---
 
-# Task 1 – Complete the Knowledge Test
-
-The Week 08 tutorial instructs students to complete the Knowledge Test during the first 10 minutes of class.
-
-**Status:** Not completed/documented in this submission.
-
-The tutorial handout does not provide the Knowledge Test questions or answers; it only instructs students to complete the test.
-
----
-
 # Task 2 – Login to Microsoft Learn On Demand
 
 ## Procedure
