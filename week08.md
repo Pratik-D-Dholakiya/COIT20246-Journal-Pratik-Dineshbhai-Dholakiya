@@ -29,13 +29,13 @@ I successfully logged into Microsoft Learn On Demand and accessed the Azure Fund
 
 ### Evidence – Microsoft Learn On Demand Dashboard
 
-![Microsoft Learn On Demand Dashboard](01_Task2_Dashboard.png)
+![Microsoft Learn On Demand Dashboard](./images/week8_Task2_Dashboard.png)
 
 The dashboard shows my logged-in account and the **Microsoft Azure Fundamentals AZ-900** active class.
 
 ### Evidence – COIT20246 / Azure Fundamentals Class
 
-![Microsoft Azure Fundamentals Class](02_Task2_Class_Page.png)
+![Microsoft Azure Fundamentals Class]((./images/week8_Task2_Class_Page.png)
 
 The class page shows:
 
