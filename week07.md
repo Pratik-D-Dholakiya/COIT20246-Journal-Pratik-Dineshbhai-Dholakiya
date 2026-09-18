@@ -1,16 +1,5 @@
 # Week 7 – Wireless Networks
 
-## Introduction
-
-Week 7 focused on wireless networking concepts, Wi-Fi access point configuration, wireless security settings, and continuing the networking and cybersecurity project. The activities provided practical experience in examining wireless network information and evaluating the configuration of a wireless access point.
-
----
-
-# Task 1 – Knowledge Test
-
-The Week 7 knowledge test was part of the tutorial activities and covered concepts related to wireless networks.
-
----
 
 # Task 2 – View Wi-Fi Details
 
