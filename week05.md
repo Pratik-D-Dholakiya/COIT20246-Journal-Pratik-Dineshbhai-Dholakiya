@@ -1,7 +1,5 @@
 # Week 5 Journal
 
-## Task 1 : Completed knowledge test
-
 ## Task 2 : View Routing Table
 ### Command Used:
 -  Get-NetRoute -InterFaceAlias "Ethernet"
