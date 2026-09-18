@@ -170,10 +170,14 @@ The discussion covered wireless parameters such as SSID, BSSID, frequency band, 
 
 AI assistance was also used to organise the `network.md` documentation and place screenshot references in the appropriate sections using relative image paths.
 
-For example:
+This helped maintain consistent screenshot evidence and improve the organisation of the project repository.
+This helped maintain consistent screenshot evidence and improve the organisation of the project repository.
 
-```markdown
-![Github](./images/week7-task2-wifi-details.png)
+
+### AI Tool Information
+AI Tool: ChatGPT
+Model: GPT-5.6 Luna
+Purpose: Technical troubleshooting, explanation, documentation and review
 
 ## Task 5 – Continue Your Project
 
