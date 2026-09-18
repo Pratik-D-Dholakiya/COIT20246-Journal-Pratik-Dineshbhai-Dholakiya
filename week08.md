@@ -115,29 +115,7 @@ The tutorial requires students who complete it to:
 
 Because I could not successfully complete the preceding Azure practical setup, I did not complete this activity.
 
-**Task 6 Status: Not completed**
 
----
-
-# Task 7 – Create a Resource Lock
-
-This task is also listed as optional.
-
-The required journal response is to explain the difference between:
-
-### Read-only lock
-
-A read-only resource lock prevents changes to the protected resource while allowing the resource to be viewed.
-
-### Delete lock
-
-A delete lock prevents the protected resource from being deleted while allowing normal modifications to the resource.
-
-I did not create the resource lock in the Azure lab environment.
-
-**Task 7 Status: Not completed**
-
----
 
 # Overall Practical Activity Status
 
