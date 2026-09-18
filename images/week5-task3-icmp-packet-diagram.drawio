@@ -1,0 +1,58 @@
+<mxfile host="Electron" agent="ChatGPT">
+  <diagram id="icmp-packet" name="ICMP Packet Diagram">
+    <mxGraphModel dx="1414" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_fWBN3azic-z_R9jjpED-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=20;fontStyle=1;" value="Week 5 Task 3 - ICMP Packet Diagram (PC1 to PC4)" vertex="1">
+          <mxGeometry height="40" width="570" x="435" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_fWBN3azic-z_R9jjpED-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;" value="PC1&#xa;IP: 74.24.0.10&#xa;MAC: PC1-NIC-MAC" vertex="1">
+          <mxGeometry height="100" width="150" x="80" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="_fWBN3azic-z_R9jjpED-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;fontStyle=1;" value="Router 1&#xa;&#xa;Fa0/0: 74.24.0.1&#xa;Se0/0: 172.16.100.1" vertex="1">
+          <mxGeometry height="150" width="190" x="420" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="_fWBN3azic-z_R9jjpED-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;fontStyle=1;" value="Router 2&#xa;&#xa;Se0/0: 172.16.100.2&#xa;Fa0/0: 62.11.0.1" vertex="1">
+          <mxGeometry height="150" width="190" x="800" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="_fWBN3azic-z_R9jjpED-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;" value="PC4&#xa;IP: 62.11.0.10&#xa;MAC: PC4-NIC-MAC" vertex="1">
+          <mxGeometry height="100" width="150" x="1160" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="_fWBN3azic-z_R9jjpED-6" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;" value="LAN A&#xa;74.24.0.0/24" vertex="1">
+          <mxGeometry height="30" width="180" x="230" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="_fWBN3azic-z_R9jjpED-7" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;" value="WAN&#xa;172.16.100.0/24" vertex="1">
+          <mxGeometry height="30" width="170" x="535" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="_fWBN3azic-z_R9jjpED-8" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;" value="LAN B&#xa;62.11.0.0/24" vertex="1">
+          <mxGeometry height="30" width="170" x="865" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="_fWBN3azic-z_R9jjpED-9" edge="1" parent="1" source="_fWBN3azic-z_R9jjpED-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;fontSize=11;" target="_fWBN3azic-z_R9jjpED-3" value="Ethernet Frame&#xa;Src MAC: PC1-NIC-MAC&#xa;Dst MAC: R1-Fa0/0-MAC">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_fWBN3azic-z_R9jjpED-10" edge="1" parent="1" source="_fWBN3azic-z_R9jjpED-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;fontSize=11;" target="_fWBN3azic-z_R9jjpED-4" value="IP Packet&#xa;Src IP: 74.24.0.10&#xa;Dst IP: 62.11.0.10&#xa;&#xa;ICMP Echo Request">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_fWBN3azic-z_R9jjpED-11" edge="1" parent="1" source="_fWBN3azic-z_R9jjpED-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;fontSize=11;" target="_fWBN3azic-z_R9jjpED-5" value="Ethernet Frame&#xa;Src MAC: R2-Fa0/0-MAC&#xa;Dst MAC: PC4-NIC-MAC">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_fWBN3azic-z_R9jjpED-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;" value="ICMP / IP PACKET&#xa;&#xa;Source IP: 74.24.0.10&#xa;Destination IP: 62.11.0.10&#xa;Protocol: ICMP&#xa;Message: Echo Request" vertex="1">
+          <mxGeometry height="130" width="420" x="510" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="_fWBN3azic-z_R9jjpED-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;" value="Packet movement:&#xa;1. PC1 sends an ICMP Echo Request to PC4.&#xa;2. Router 1 forwards the packet towards Router 2.&#xa;3. Router 2 forwards the packet to PC4.&#xa;4. The source and destination IP addresses remain the same.&#xa;5. Ethernet MAC addresses change at each network segment." vertex="1">
+          <mxGeometry height="120" width="620" x="410" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="_fWBN3azic-z_R9jjpED-14" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;" value="ICMP Request →" vertex="1">
+          <mxGeometry height="30" width="150" x="245" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_fWBN3azic-z_R9jjpED-15" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;" value="Forward →" vertex="1">
+          <mxGeometry height="30" width="120" x="660" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_fWBN3azic-z_R9jjpED-16" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;" value="Deliver →" vertex="1">
+          <mxGeometry height="30" width="120" x="1030" y="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
