@@ -35,7 +35,7 @@ The dashboard shows my logged-in account and the **Microsoft Azure Fundamentals 
 
 ### Evidence – COIT20246 / Azure Fundamentals Class
 
-![Microsoft Azure Fundamentals Class]((./images/week8_Task2_Class_Page.png)
+![Microsoft Azure Fundamentals Class](./images/week8_Task2_Class_Page.png)
 
 The class page shows:
 
