@@ -1,8 +1,5 @@
 # Week 4 Journal
 
-## Task 1 : Completed knowledge test
-![Github](./images/week4-task1-knowledge-test.png)
-
 ### Task 2 — Project Initiation
 ![Github](./images/week4-task2-Project-Initiation.png)
 
