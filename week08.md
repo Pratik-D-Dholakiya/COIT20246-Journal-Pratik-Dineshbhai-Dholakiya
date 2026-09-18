@@ -100,29 +100,6 @@ No VM IP address, command output, webpage screenshot, or NSG result has been inv
 
 ---
 
-# Task 5 – Compare Cloud vs On-Premise Costs
-
-The tutorial requires a comparison between:
-
-- A consumer desktop PC.
-- A comparable Azure virtual machine.
-
-The comparison is required to include:
-
-- Specifications.
-- Costs in Australian dollars (AUD).
-- Upfront cost.
-- One-year running cost.
-- Three-year running cost.
-- Trade-offs between cloud and on-premise options.
-- Consumer PC price screenshot.
-- Azure Pricing Calculator export/screenshot.
-
-The exact specification limits are to be provided by the tutor. Therefore, I cannot produce a valid comparison without those class-specific limits and without completing the required pricing activity.
-
-**Task 5 Status: Not completed**
-
----
 
 # Task 6 – Create a Storage Blob in Azure
 
