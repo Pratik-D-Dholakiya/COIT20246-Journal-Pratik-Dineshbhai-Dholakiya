@@ -149,6 +149,7 @@ AI assistance was used to interpret OpenWrt terminal output during network confi
 The AI helped interpret the network interface status and identify configuration issues. The configuration was then applied and verified in the OpenWrt environment.
 
 **Evidence:** OpenWrt terminal screenshots showing the interface configuration and verification.
+![Ai-1](./images/week7-task4-AI-interaction-1.png)
 
 ### AI Interaction 2 – Network Architecture and Diagram
 
@@ -156,7 +157,6 @@ AI assistance was used to understand and document the VirtualBox and OpenWrt net
 
 This helped organise the network topology and prepare the network diagram used in the project documentation.
 
-**Evidence:** Network architecture diagram and related project documentation.
 
 ### AI Interaction 3 – Wi-Fi and Access Point Analysis
 
@@ -164,7 +164,6 @@ AI assistance was used to explain the Wi-Fi information collected from the Windo
 
 The discussion covered wireless parameters such as SSID, BSSID, frequency band, channel, signal strength, authentication, encryption, WPS and Smart Connect. This helped explain the security and configuration implications of the observed settings.
 
-**Evidence:** Wi-Fi details and TP-Link configuration screenshots included in this document.
 
 ### AI Interaction 4 – Markdown Documentation
 
