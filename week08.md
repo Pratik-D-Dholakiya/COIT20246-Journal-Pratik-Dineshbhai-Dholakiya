@@ -1,12 +1,5 @@
-# COIT20246 Networking and Cyber Security
-## Week 08 Tutorial Activities – Cloud Computing
 
-**Student:** Pratik Dineshbhai Dholakiya  
-**Unit:** COIT20246 Networking and Cyber Security  
-**Tutorial:** Week 08 – Cloud Computing  
-**Date:** 18 September 2026
-
----
+# Week 08 Tutorial 
 
 ## Submission Note
 
