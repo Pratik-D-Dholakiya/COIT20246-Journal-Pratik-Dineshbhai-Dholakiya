@@ -1,0 +1,64 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="CY39oL1WXhi8JyU5hE4H">
+    <mxGraphModel dx="900" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="26R_exbmnj8S9apEk22J-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=22;fontStyle=1;" value="ICMP Packet - Echo Request" vertex="1">
+          <mxGeometry height="40" width="570" x="150" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="26R_exbmnj8S9apEk22J-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;" value="Ethernet II Frame - 14 Bytes" vertex="1">
+          <mxGeometry height="55" width="830" x="20" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="26R_exbmnj8S9apEk22J-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=14;align=center;verticalAlign=middle;" value="Destination MAC&#xa;Gateway MAC&#xa;6 Bytes" vertex="1">
+          <mxGeometry height="80" width="277" x="20" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="26R_exbmnj8S9apEk22J-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=14;align=center;verticalAlign=middle;" value="Source MAC&#xa;Host MAC&#xa;6 Bytes" vertex="1">
+          <mxGeometry height="80" width="277" x="297" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="26R_exbmnj8S9apEk22J-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=14;align=center;verticalAlign=middle;" value="EtherType&#xa;0x0800 (IPv4)&#xa;2 Bytes" vertex="1">
+          <mxGeometry height="80" width="276" x="574" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="26R_exbmnj8S9apEk22J-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;" value="IPv4 Header - 20 Bytes" vertex="1">
+          <mxGeometry height="55" width="830" x="20" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="26R_exbmnj8S9apEk22J-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=14;align=center;verticalAlign=middle;" value="Source IP&#xa;10.178.36.86&#xa;4 Bytes" vertex="1">
+          <mxGeometry height="75" width="415" x="20" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="26R_exbmnj8S9apEk22J-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=14;align=center;verticalAlign=middle;" value="Destination IP&#xa;10.178.36.1&#xa;4 Bytes" vertex="1">
+          <mxGeometry height="75" width="415" x="435" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="26R_exbmnj8S9apEk22J-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=14;align=center;verticalAlign=middle;" value="Protocol&#xa;ICMP (1)&#xa;1 Byte" vertex="1">
+          <mxGeometry height="75" width="277" x="20" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="26R_exbmnj8S9apEk22J-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=14;align=center;verticalAlign=middle;" value="Total Length&#xa;60 Bytes&#xa;2 Bytes" vertex="1">
+          <mxGeometry height="75" width="277" x="297" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="26R_exbmnj8S9apEk22J-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=13;align=center;verticalAlign=middle;" value="Other IPv4 Header Fields&#xa;Version, IHL, TTL, checksum, etc.&#xa;11 Bytes" vertex="1">
+          <mxGeometry height="75" width="276" x="574" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="26R_exbmnj8S9apEk22J-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;" value="ICMP Header - 8 Bytes" vertex="1">
+          <mxGeometry height="55" width="830" x="20" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="26R_exbmnj8S9apEk22J-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;fontSize=14;align=center;verticalAlign=middle;" value="Type&#xa;8 - Echo Request&#xa;1 Byte" vertex="1">
+          <mxGeometry height="80" width="207" x="20" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="26R_exbmnj8S9apEk22J-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;fontSize=14;align=center;verticalAlign=middle;" value="Code&#xa;0&#xa;1 Byte" vertex="1">
+          <mxGeometry height="80" width="207" x="227" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="26R_exbmnj8S9apEk22J-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;fontSize=14;align=center;verticalAlign=middle;" value="Checksum&#xa;2 Bytes" vertex="1">
+          <mxGeometry height="80" width="207" x="434" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="26R_exbmnj8S9apEk22J-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;fontSize=14;align=center;verticalAlign=middle;" value="Identifier + Sequence Number&#xa;4 Bytes" vertex="1">
+          <mxGeometry height="80" width="209" x="641" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="26R_exbmnj8S9apEk22J-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;" value="ICMP Data / Payload - 32 Bytes" vertex="1">
+          <mxGeometry height="55" width="830" x="20" y="655" as="geometry" />
+        </mxCell>
+        <mxCell id="26R_exbmnj8S9apEk22J-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=16;fontStyle=1;align=center;verticalAlign=middle;" value="Total Captured Packet Size: 74 Bytes&#xa;14 Bytes Ethernet + 20 Bytes IPv4 + 8 Bytes ICMP + 32 Bytes Data" vertex="1">
+          <mxGeometry height="60" width="670" x="100" y="740" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
