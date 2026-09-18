@@ -1,7 +1,5 @@
 # Week 6 Journal
 
-## Task 1 : Completed knowledge test.
-
 ## Task 2 : Create Web Pages in OpenWRT
 - Created a new HTML page 12327424.html on the OpenWRT web server and linked it from the existing `index.html` page and added a button to display the current date and time.
 - Created an external CSS file and linked it with 12327424.html page to change the colour of text.
