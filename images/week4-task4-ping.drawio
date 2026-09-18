@@ -1,0 +1,35 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="9yY-ONk8Ve_bTkvXFpZc">
+    <mxGraphModel dx="1414" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4-DRa2r3fyyxhAL3N82r-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;align=center;verticalAlign=middle;spacing=10;" value="&lt;b&gt;Windows Host&lt;/b&gt;&lt;br&gt;&lt;br&gt;IP Address: 10.178.36.86&lt;br&gt;MAC Address: 50:2f:9b:cf:74:4d" vertex="1">
+          <mxGeometry height="120" width="240" x="190" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="4-DRa2r3fyyxhAL3N82r-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;align=center;verticalAlign=middle;spacing=10;" value="&lt;b&gt;Network Gateway&lt;/b&gt;&lt;br&gt;&lt;br&gt;IP Address: 10.178.36.1&lt;br&gt;MAC Address: e8:eb:34:bb:8d:7f" vertex="1">
+          <mxGeometry height="120" width="240" x="740" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="4-DRa2r3fyyxhAL3N82r-3" edge="1" parent="1" source="4-DRa2r3fyyxhAL3N82r-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;fontSize=13;" target="4-DRa2r3fyyxhAL3N82r-2" value="Frame 786: ICMP Echo Request&lt;br&gt;&lt;br&gt;10.178.36.86 → 10.178.36.1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4-DRa2r3fyyxhAL3N82r-4" edge="1" parent="1" source="4-DRa2r3fyyxhAL3N82r-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;fontSize=13;" target="4-DRa2r3fyyxhAL3N82r-1" value="Frame 787: ICMP Echo Reply&lt;br&gt;&lt;br&gt;10.178.36.1 → 10.178.36.86">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4-DRa2r3fyyxhAL3N82r-5" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;" value="ICMP Ping Communication" vertex="1">
+          <mxGeometry height="40" width="260" x="455" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="4-DRa2r3fyyxhAL3N82r-6" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=2;" value="Wi-Fi Network" vertex="1">
+          <mxGeometry height="30" width="140" x="515" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="4-DRa2r3fyyxhAL3N82r-7" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=20;fontStyle=1;" value="Week 4 Task 4 - Network Diagram for ICMP Ping" vertex="1">
+          <mxGeometry height="50" width="500" x="335" y="630" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
