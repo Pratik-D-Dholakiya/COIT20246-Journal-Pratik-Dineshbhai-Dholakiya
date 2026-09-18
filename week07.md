@@ -28,7 +28,7 @@ The connection used **802.11ax** as the radio type. The authentication method wa
 ### Screenshot Evidence
 
 **Figure 1: Wi-Fi details of the eduroam Access Point**
-
+![Github](./images/week7-task2-wifi-details.png)
 
 
 The screenshot shows the SSID, BSSID, frequency band, channel, data rates, signal strength, authentication method and other connection information collected from the Windows laptop.
@@ -124,13 +124,13 @@ I would consider enabling Smart Connect if the network contains compatible devic
 
 ### Figure 2 – TP-Link Wireless Settings
 
-*Insert the screenshot of the TP-Link Wireless Settings page here.*
+![Github](./images/week7-task3-TP-Link-Wireless-Settings.png)
 
 The screenshot shows the 2.4 GHz wireless configuration, including the SSID, wireless security, wireless mode, channel width, channel and transmit power settings.
 
 ### Figure 3 – TP-Link WPS Settings
 
-*Insert the screenshot of the TP-Link WPS settings page here.*
+![Github](./images/week7-task3-TP-Link-WPS-Settings.png)
 
 The screenshot shows that WPS is enabled and provides the Push Button and PIN connection methods.
 
