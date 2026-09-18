@@ -25,65 +25,77 @@ The second network diagram contains:
 - 8 PCs
 - The devices are arranged using a star network arrangement.
 
-#### Tool Used
+#### Tool Used : The network diagrams were created using **draw.io (diagrams.net)**.
 
-The network diagrams were created using **draw.io (diagrams.net)**.
+## Task 4 : Analyse Ping Packet Capture
+
+### Network Diagram
+
+![Github](./images/week4-task4-ping.png)
+
+The network diagram shows the communication between the Windows host and the network gateway using ICMP ping.
+
+- **Windows Host IP Address:** 10.178.36.86
+- **Windows Host MAC Address:** 50:2f:9b:cf:74:4d
+- **Network Gateway IP Address:** 10.178.36.1
+- **Network Gateway MAC Address:** e8:eb:34:bb:8d:7f
+- **Network:** Wi-Fi
+
+In the packets captured the Windows host is communicating with the network gateway.
+
+### ARP Packets
+
+The Address Resolution Protocol (ARP) is employed to discover the MAC address of a network node that has a known IP address in the local network.
+
+In the packet capture, the Windows host is talking to the network gateway (10.178.36.1). To send Ethernet frames to the right device, the ARP process is used to find out the gateway's MAC address.
+
+The ARP information can be seen in the ARP table. The gateway has the MAC address e8:eb:34:bb:8d:7f.
+
+The function of ARP is to convert an IPv4 address to a MAC address in the local network.
+
+The first two ICMP packets are ignored.
+
+The first 2 ICMP packets are ICMP Echo Request and ICMP Echo Reply.
+
+- **First packet:** ICMP Echo Request
+  - Source IP: 10.178.36.86
+  - Destination IP: 10.178.36.1
+  - Protocol: ICMP
+  - Length: 74 bytes
+  - Description: The Windows host requests to determine if the network gateway can be reached.
+
+- **Second packet:** ICMP Echo Reply
+  - Source IP: 10.178.36.1
+  - Destination IP: 10.178.36.86
+  - Protocol: ICMP
+  - Length: 74 bytes
+  - Purpose: The network gateway responds to the Ping request, indicating that the host can communicate with the network gateway.
+
+- The Wireshark capture shows that the ICMP Echo Request and Echo Reply are successfully exchanged between the two devices.
+
+### Packet Encapsulation
+
+- The ICMP packet is placed in an IPv4 packet and the IPv4 packet is placed in an Ethernet frame.
+
+- The packet is composed of the following layers:
+
+1. Ethernet II header
+2. IPv4 header
+3. ICMP header
+4. ICMP data
+
+- There are 74 bytes of the complete captured packet.
+
+### Packet Diagram
+
+![Github](./images/week4-task4-icmp-table-2.png)
+
+- The Wireshark packet capture shows the Ethernet II, IPv4 and ICMP layers. The ICMP Echo Request includes ping data from the Windows host to the network gateway.
+
+### Wireshark Evidence
+
+![Github](./images/week4-task4-ping.png)
+
+- The Wireshark capture shows the ICMP Echo Request and Echo Reply packets with the src and dest interfaces between the host **10.178.36.86** and host **10.178.36.1**.
 
 
-### Commands Used to get Addresses
-- Get-NetAdapter
-- Get-NetIPAddress
-- Get-NetIPAddress -InterfaceAlias "Ethernet"
-- Get-NetIPAddress -InterfaceAlias "Ethernet 3"
-  
-![Github](./images/week3-task2-addresses.png)
-![Github](./images/week3-task2-IPAdresses.png)
-### Ethernet
-![Github](./images/week3-task2-ethernet.png)
- - IPv4 Address (Ethernet) : 10.178.32.125 - Identifies my computer on the local network.
- - IPv6 Address (Ethernet) : fe80::a748:97db:d02c:5cf5%8 - An IPv6 address used to identify my device on the network.
- - MAC Address (Ethernet) : 74-86-E2-38-A8-84 - Unique hardware address of the physical network adapter.
-### Ethernet 3
-![Github](./images/week3-task2-ethernet3.png)
- - IPv4 Address (Ethernet 3) : 192.168.56.1 - Identifies the VirtualBox Host-Only Adapter on the local virtual network.
- - IPv6 Address (Ethernet 3) : fe80::5dd8:81b2:45a2:35b9%7 - An IPv6 address used to identify the VirtualBox Host-Only Adapter on the network.
- - MAC Address (Ethernet 3) : 0A-00-27-00-00-07 - Unique hardware address of the VirtualBox virtual network adapter.
-
-## Task 3 : Ping Your Local Router
-![Github](./images/week3-task3-localrouter2.png)
- - Router IP Address (Default Gateway): 10.178.32.1
- Minimum Delay: 0 ms
- Average Delay: 0 ms
- Maximum Delay: 0 ms
- Packet Loss: 0%
- - After testing the ping command to test connectivity. The router responded successfully with 0 ms minimum, average, and maximum delay, indicating a very fast local network connection.
- ### Factors that affect the delay: 
- Delay can vary depending on network traffic, Wi-Fi signal strength, router workload, and other devices using the network. The delay may vary over time because network conditions constantly change.
-
-## Task 4 : Ping your OpenWRT Linux Server
-- ### Commands Used to ping OpenWRT linus server
-  - ip link
-  - ip addr
-  - Packet Capture Command : tcpdump -i eth0 -w week3-task4-ping.pcap
-  - Ping Command from Windows Host : ping 192.168.56.2
-![Github](./images/week3-task4-ping-openwrtpng)
- - Destination IP: 192.168.56.2
-   ### Packets info and delays :
-   - Packets Sent: 4
-   - Packets Received: 4
-   - Packet Loss: 0%
-   - Minimum Delay: 0 ms
-   - Maximum Delay: 0 ms
-   - Average Delay: 0 ms
-## Task 5: Academic Integrity Policy
-- Level 1 Breach of Academic Integrity : Inappropriate academic conduct  
-- Level 2 Breach of Academic Integrity : Minor academic misconduct
-- Level 3 Breach of Academic Integrity : Moderate academic misconduct 
-- Level 4 Breach of Academic Integrity : Substantial academic misconduct
-- Level 5 Breach of Academic Integrity : Serious academic misconduct  
-
-## Task 7 : Find Addresses of a Website
-### Website: 
-- https://www.canva.com
-- Address:        10.8.0.25
-- Command used : nslookup https://www.canva.com
