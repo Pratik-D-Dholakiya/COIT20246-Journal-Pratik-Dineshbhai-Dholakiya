@@ -41,60 +41,45 @@ The network diagram shows the communication between the Windows host and the net
 - **Network Gateway MAC Address:** e8:eb:34:bb:8d:7f
 - **Network:** Wi-Fi
 
-In the packets captured the Windows host is communicating with the network gateway.
-
 ### ARP Packets
 
-The Address Resolution Protocol (ARP) is employed to discover the MAC address of a network node that has a known IP address in the local network.
+ARP (Address Resolution Protocol) is used to find the MAC address associated with an IP address on the local network.
 
-In the packet capture, the Windows host is talking to the network gateway (10.178.36.1). To send Ethernet frames to the right device, the ARP process is used to find out the gateway's MAC address.
+In the packet capture, the Windows host communicates with the network gateway at **10.178.36.1**. The ARP process is used to determine the MAC address of the gateway so that Ethernet frames can be sent to the correct device.
 
-The ARP information can be seen in the ARP table. The gateway has the MAC address e8:eb:34:bb:8d:7f.
+The purpose of ARP is to map an IPv4 address to a MAC address on the local network.
 
-The function of ARP is to convert an IPv4 address to a MAC address in the local network.
+### First Two ICMP Packets
 
-The first two ICMP packets are ignored.
-
-The first 2 ICMP packets are ICMP Echo Request and ICMP Echo Reply.
+The first two ICMP packets are an ICMP Echo Request and an ICMP Echo Reply.
 
 - **First packet:** ICMP Echo Request
   - Source IP: 10.178.36.86
   - Destination IP: 10.178.36.1
   - Protocol: ICMP
   - Length: 74 bytes
-  - Description: The Windows host requests to determine if the network gateway can be reached.
 
 - **Second packet:** ICMP Echo Reply
   - Source IP: 10.178.36.1
   - Destination IP: 10.178.36.86
   - Protocol: ICMP
   - Length: 74 bytes
-  - Purpose: The network gateway responds to the Ping request, indicating that the host can communicate with the network gateway.
 
-- The Wireshark capture shows that the ICMP Echo Request and Echo Reply are successfully exchanged between the two devices.
-
-### Packet Encapsulation
-
-- The ICMP packet is placed in an IPv4 packet and the IPv4 packet is placed in an Ethernet frame.
-
-- The packet is composed of the following layers:
-
-1. Ethernet II header
-2. IPv4 header
-3. ICMP header
-4. ICMP data
-
-- There are 74 bytes of the complete captured packet.
-
-### Packet Diagram
-
-![Github](./images/week4-task4-icmp-table-1.png)
-
-- The Wireshark packet capture shows the Ethernet II, IPv4 and ICMP layers. The ICMP Echo Request includes ping data from the Windows host to the network gateway.
+The ICMP Echo Request is sent by the Windows host to check whether the network gateway is reachable. The ICMP Echo Reply is sent by the gateway in response to the request.
 
 ### Wireshark Evidence
 
 ![Github](./images/week4-task4-icmp-table-2.png)
+
+The Wireshark capture shows the ICMP Echo Request and ICMP Echo Reply packets between **10.178.36.86** and **10.178.36.1**.
+
+### Packet Diagram for ARP
+
+![Github](./images/week4-task4-arp-packet.png)
+
+### Packet Diagram for ICMP
+
+![Github](./images/week4-task4-icmp-packet.png)
 
 - The Wireshark capture shows the ICMP Echo Request and Echo Reply packets with the src and dest interfaces between the host **10.178.36.86** and host **10.178.36.1**.
 
