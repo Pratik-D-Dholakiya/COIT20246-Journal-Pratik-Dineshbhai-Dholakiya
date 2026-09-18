@@ -88,13 +88,13 @@ The first 2 ICMP packets are ICMP Echo Request and ICMP Echo Reply.
 
 ### Packet Diagram
 
-![Github](./images/week4-task4-icmp-table-2.png)
+![Github](./images/week4-task4-icmp-table-1.png)
 
 - The Wireshark packet capture shows the Ethernet II, IPv4 and ICMP layers. The ICMP Echo Request includes ping data from the Windows host to the network gateway.
 
 ### Wireshark Evidence
 
-![Github](./images/week4-task4-ping.png)
+![Github](./images/week4-task4-icmp-table-2.png)
 
 - The Wireshark capture shows the ICMP Echo Request and Echo Reply packets with the src and dest interfaces between the host **10.178.36.86** and host **10.178.36.1**.
 
